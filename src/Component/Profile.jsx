@@ -12,7 +12,7 @@ export const Profile = ()=>{
     }
 
     useEffect(()=>{
-        fetch('http://localhost:5000/profile' , {
+        fetch('https://mock10-backend-h281.onrender.com/profile' , {
             method:'POST' ,
             body : JSON.stringify({'_id':user._id}) ,
             headers :{

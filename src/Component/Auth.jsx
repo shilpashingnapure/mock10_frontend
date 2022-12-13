@@ -23,7 +23,7 @@ export const Signup = ()=>{
 
         }
         console.log(detail)
-        fetch('http://localhost:5000/register' , {
+        fetch('https://mock10-backend-h281.onrender.com/register' , {
             method:'POST' ,
             body : JSON.stringify(detail) ,
             headers :{
@@ -72,7 +72,7 @@ export const Login = ()=>{
             password : temp[1].value
         }
         console.log(detail)
-        fetch('http://localhost:5000/register' , {
+        fetch('https://mock10-backend-h281.onrender.com/login' , {
             method:'POST' ,
             body : JSON.stringify(detail) ,
             headers :{

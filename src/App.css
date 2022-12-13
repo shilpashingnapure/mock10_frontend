@@ -1,0 +1,26 @@
+.App{
+  text-align: center;
+}
+nav{
+  background:rgb(168, 168, 211);
+  padding:12px 15px;
+  display: flex;
+  gap:20px;
+  color:#fff;
+  margin-bottom: 30px;
+
+}
+a{
+  margin-left: 20px;
+}
+
+form{
+  width: 50%;
+  border:1px solid rgb(224, 220, 220);
+  margin: auto;
+  padding:20px;
+}
+input {
+  background-color: #3182ce;
+  color:#fff;
+}
